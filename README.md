@@ -1,6 +1,8 @@
 ## hono-react-webapp
 DenoDeployで動くWebアプリケーション
 
+Demo: https://hono-react-webapp.deno.dev/
+
 |                | ランタイム | 技術スタック          | 
 | -------------- | ---------- | --------------------- | 
 | フロントエンド | Node.js    | React, Vite, Tailwind | 
@@ -15,3 +17,4 @@ DenoDeployで動くWebアプリケーション
 ```
 deployctl deploy --project={プロジェクト名} --entrypoint=./main.ts --include=./main.ts --include=./deno.json --include=./frontend-app/dist/
 ```
+Productionへの反映には`--prod`をつける
